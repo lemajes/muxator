@@ -19,5 +19,5 @@ git clone https://github.com/lamajes/muxator.git
 cd muxator
 go get muxator/tor
 go get muxator/socks
-got run .
+go run .
 ```
