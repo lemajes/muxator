@@ -1,0 +1,30 @@
+# Tor state file last generated on 2025-03-23 23:40:48 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+CircuitBuildTimeBin 135 1
+CircuitBuildTimeBin 565 1
+Dormant 0
+Guard in=default rsa_id=26EE0F3E2548AFB23FF7704631F47515019500E6 nickname=prsv sampled_on=2025-03-22T07:34:03 sampled_idx=0 sampled_by=0.4.7.16 listed=1 confirmed_on=2025-03-16T20:02:13 confirmed_idx=1 pb_use_attempts=1.000000 pb_use_successes=1.000000 pb_circ_attempts=1.000000 pb_circ_successes=1.000000 pb_successful_circuits_closed=1.000000
+Guard in=default rsa_id=2E289A14B649F500C194BD56DEE28F0A0D75533C nickname=YukisTorRelay sampled_on=2025-03-13T15:22:29 sampled_idx=1 sampled_by=0.4.7.16 listed=1 confirmed_on=2025-03-20T13:59:07 confirmed_idx=0 pb_circ_attempts=1.000000 pb_circ_successes=1.000000 pb_successful_circuits_closed=1.000000
+Guard in=default rsa_id=B13C2C569F3FD0C530B7D96E5FF7933DF7A0E834 nickname=porte sampled_on=2025-03-13T16:50:41 sampled_idx=2 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=08417F5F40A190E5EB54CDC40C8C5C99969EE92C nickname=lunar7 sampled_on=2025-03-17T06:02:07 sampled_idx=3 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=6FE30A2A59E9A2E84723CF05E3C5051BB42175D3 nickname=easybird sampled_on=2025-03-16T15:12:12 sampled_idx=4 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=5C8CC5659757F690C9B5B9BB4A4302E8397818BF nickname=LostSahara sampled_on=2025-03-13T20:56:49 sampled_idx=5 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=27AD21AE45CC2DA5CE701925F23E30B5F2CE88C7 nickname=Silicon sampled_on=2025-03-13T20:43:56 sampled_idx=6 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=24D6B6B9591A07CCF43B35D559468B19F44DED6A nickname=relayon1163 sampled_on=2025-03-13T20:03:42 sampled_idx=7 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=923DE89BAD9206721D2B1D60AC7E987097EDF070 nickname=DyingHead sampled_on=2025-03-14T00:09:36 sampled_idx=8 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=CC701FCE86D6AF95FC3D5B71645D3430794910C1 nickname=sutsuj sampled_on=2025-03-19T07:10:21 sampled_idx=9 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=20462CBA5DA4C2D963567D17D0B7249718114A68 nickname=scaletor sampled_on=2025-03-17T20:13:12 sampled_idx=10 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=A9BEA2E0699D1F60521C8A1167340945A419D102 nickname=alxu3 sampled_on=2025-03-22T22:33:27 sampled_idx=11 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=F98CE40031795D3704365019EA9F8AC56AE2994B nickname=torproxy02 sampled_on=2025-03-22T16:39:59 sampled_idx=12 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=D4017217F167306872A5F79694C5F13E837E6E47 nickname=prsv sampled_on=2025-03-14T11:58:31 sampled_idx=13 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=D19494F0055BA32CE50BEC3C2438896EB81D092D nickname=kygugisog sampled_on=2025-03-22T17:25:19 sampled_idx=14 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=4CF204F66452C89712B9CF513A213C1F03D8F706 nickname=Indigold sampled_on=2025-03-18T21:39:07 sampled_idx=15 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=C09B0B689E4CF3997C45BAC02543C8433AFFB4A6 nickname=SeraphimFields sampled_on=2025-03-22T05:13:33 sampled_idx=16 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=C171B79FF282D3394129D66D83AFEA85548138D1 nickname=Sinker sampled_on=2025-03-13T21:52:12 sampled_idx=17 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=6A84C1DB4C50934A57E13FC7F93EA5217BA0DAB6 nickname=tortisserie sampled_on=2025-03-20T11:20:41 sampled_idx=18 sampled_by=0.4.7.16 listed=1
+Guard in=default rsa_id=926955277C7BDB6CD1E1561A91847CBCD5B079E5 nickname=0x3d01 sampled_on=2025-03-12T16:45:44 sampled_idx=19 sampled_by=0.4.7.16 listed=1
+LastWritten 2025-03-23 22:40:48
+TorVersion Tor 0.4.7.16
+TotalBuildTimes 2

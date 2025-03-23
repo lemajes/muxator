@@ -6,7 +6,6 @@ import (
 	"log"
 	"os"
 	"sync"
-
 	"github.com/things-go/go-socks5"
 )
 func Runproxy(port int, ctx context.Context, wg *sync.WaitGroup) {
