@@ -1,7 +1,7 @@
 package main
 
 import (
-	"muxator/proxy"
+//	"muxator/proxy"
 	"muxator/tor"
     "sync"
     "context"
@@ -25,11 +25,12 @@ func main() {
     for _, id := range ports {
         wg.Add(1)
         port := id
-#        go proxy.Runproxy(port, ctx, &wg)
+//        go proxy.Runproxy(port, ctx, &wg)
         go tor.RunTor(port, ctx, &wg)
 
     }
     wg.Wait()
 }
 
-# https://stackoverflow.com/questions/40328025/tcp-connection-over-tor-in-golang
+// https://stackoverflow.com/questions/40328025/tcp-connection-over-tor-in-golang
+// https://jonathanmh.com/p/golang-proxy-http-requests-via-tor/
