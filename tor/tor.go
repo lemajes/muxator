@@ -4,9 +4,7 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"os"
 	"sync"
-  	"github.com/cretz/bine"
 
 )
 func RunTor(port int, ctx context.Context, wg *sync.WaitGroup) {
