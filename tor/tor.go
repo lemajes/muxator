@@ -21,7 +21,7 @@ func RunTor(port int, ctx context.Context, wg *sync.WaitGroup) {
 		fmt.Println("Starting tor and fetching title of https://check.torproject.org, please wait a few seconds...")
 
 		// Create a temporary torrc file with the specified SOCKS port
-        torrcContent := fmt.Sprintf("SOCKSPort 127.0.0.1:%d\nDisableNetwork 0\n", port)
+        torrcContent := fmt.Sprintf("SOCKSPort 127.0.0.1:%d\n\rDisableNetwork 0\n\r", port)
 		torrcFile, err := os.CreateTemp("", "torrc-*.conf")
 		if err != nil {
 			fmt.Println("Error creating torrc file:", err)
@@ -41,6 +41,7 @@ func RunTor(port int, ctx context.Context, wg *sync.WaitGroup) {
 		// Configure Tor to use the custom torrc file
 		conf := &tor.StartConf{
 			TorrcFile: torrcFile.Name(),
+//            EnableNetwork: true,
 		}
 
 		t, err := tor.Start(nil, conf)
