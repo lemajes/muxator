@@ -39,10 +39,13 @@ func RunTor(port int, ctx context.Context, wg *sync.WaitGroup) {
 		}
 
 		// Configure Tor to use the custom torrc file
+        mydir, err := os.Getwd() 
+        datadirs := fmt.Sprintf(mydir,"/datadir")
 		conf := &tor.StartConf{
             TorrcFile: torrcFile.Name(),
             EnableNetwork: true,
             NoAutoSocksPort: true,
+            TempDataDirBase: datadirs,
 		}
 
 		t, err := tor.Start(nil, conf)
