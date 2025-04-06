@@ -15,6 +15,7 @@
 
 ## How to use
 ```bash
+sudo apt install tor
 git clone https://github.com/lemajes/muxator.git
 cd muxator
 go get muxator/tor
