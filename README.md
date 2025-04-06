@@ -15,7 +15,7 @@
 
 ## How to use
 ```bash
-git clone https://github.com/lamajes/muxator.git
+git clone https://github.com/lemajes/muxator.git
 cd muxator
 go get muxator/tor
 go get muxator/socks
