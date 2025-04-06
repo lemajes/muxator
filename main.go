@@ -12,8 +12,8 @@ import (
 )
 
 func main() {
-    // var ports = []int{3000,3001,3002,3003,3004}
-    var ports = []int{9051}
+    var ports = []int{9050,9051,9052,9053,9054}
+    //var ports = []int{9051}
     var wg sync.WaitGroup
     ctx, cancel := context.WithCancel(context.Background())
 	sigChan := make(chan os.Signal, 1)
